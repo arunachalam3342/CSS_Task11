@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Task11</title>
+    <style>
+        img {
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+        }
+
+        form {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .link{
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="D:\MERN\tasks\03 css and bootstrap\profile.png" alt="Profile image">
+    <br>
+    <form>
+        <div class="mb-3">
+            <label for="user" class="form-label">Username</label>
+            <input type="text" class="form-control" id="user" placeholder="Enter Username">
+        </div>
+        <div class="mb-3">
+            <label for="pass" class="form-label">Password</label>
+            <input type="password" class="form-control" id="pass" placeholder="Enter Password">
+        </div>
+        <div class="d-grid gap-2">
+        <button type="submit" class="btn btn-success">Login</button>
+      </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="box" checked="true">
+            <label class="form-check-label" for="box">Remember me</label>
+        </div>
+        <div class="mb-3" style="background-color:lightgray;">
+        <hr>
+            <button type="submit" class="btn btn-danger">Cancel</button>
+            <a href="" class="link">Forgot password?</a>
+        </div>
+        
+    </form>
+</body>
+
+</html>
